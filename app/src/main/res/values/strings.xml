@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BaseProject</string>
+    <string name="data_error">参数错误！</string>
+    <string name="net_erro">网络不可用，请检查您的网络设置</string>
+    <string name="net_timeout">网络连接超时，请检查网络设置</string>
+    <string name="data_isnull">数据为空,访问出错</string>
+    <string name="service_error">服务器错误,错误信息:</string>
+    <string name="api_request_fail">接口访问失败</string>
+    <string name="login_in_other_place">账号已在其他地方登录</string>
+    <string name="service_error2">服务器访问错误,请稍后再试</string>
+    <string name="press_again_exit">再按一次退出</string>
+    <string name="str_back">返回</string>
+    <string name="back_to_up">&#160;&#160;返回</string>
+</resources>

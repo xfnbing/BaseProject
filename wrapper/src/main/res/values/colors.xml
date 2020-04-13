@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorFore">#FFFFFF</color><!--前景色-->
+    <color name="colorBack">#E4E4E4</color><!--后景色-->
+    <!--字体颜色-->
+    <color name="textSuper">#000000</color>
+    <color name="textMain">#333333</color>
+    <color name="textMinor">#666666</color>
+    <color name="textLesser">#8998AF</color>
+
+    <color name="colorRed">#F02B2B</color>
+    <!--半透明-->
+    <color name="colorDivider">#999999</color>
+    <color name="textBlue">#0091ea</color>
+
+
+</resources>

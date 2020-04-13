@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.winds.widget.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFore"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        android:id="@android:id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300px"
+        android:indeterminate="true" />
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:gravity="center_horizontal"
+        android:text="正在加载..."
+        android:textColor="@color/textLesser"
+        android:textSize="26px" />
+
+</me.winds.widget.autolayout.AutoLinearLayout>

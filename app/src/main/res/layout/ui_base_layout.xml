@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tag="layout/activity_base_0">
+
+
+    <android.support.v7.widget.Toolbar
+        style="@style/BaseToolbarStyle"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/toolbar_nav_text"
+            style="@style/ToolBarNavTextStyle"
+            android:layout_marginLeft="6dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:drawablePadding="6dp"
+            android:drawableLeft="@mipmap/ic_back"
+            android:text="@string/str_back" />
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            style="@style/ToolBarTitleStyle"
+            android:text=""
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_right_lable"
+            style="@style/ToolBarRightTitleStyle"
+            android:layout_marginRight="6dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/iv_right"
+            style="@style/ToolBarRightTitleStyle"
+            android:layout_marginRight="6dp"  />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_below="@+id/base_toolbar"
+        style="@style/v_divide_line"/>
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_below="@+id/base_toolbar" />
+</LinearLayout>
